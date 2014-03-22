@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+ <!-- Applicaton level constants -->
+     <!-- Start -->
+     <string name="fileName">MonthlyExpenses.csv</string>
+     <!-- End -->
+    
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MyExpenses</string>
+    <string name="input_button">Submit</string>
+    <string name="title_activity_display_msg">DisplayMsgActivity</string>
+    <string name="btn_Main_SubmitExpense">Submit An Expense</string>
+    <string name="btn_Main_ViewAllExpenses">View All Expenses</string>
+    <string name="btn_Main_ViewCatgOfExpenses">Group by categories</string>
+    <string name="numbersOnly">Enter Numbers Only</string>
+    
+    
+    
+ <!-- Settings for "Enter Expenses" screen -->
+    <!-- Start -->
+    <string name="btn_SubmitExpense">Save this expense</string>
+    <string name="hint_exp_desc_txt">Enter Description(Letters Only)</string>
+    <string name="hint_exp_category_txt">Enter Category(Letters only)</string>
+    <string name="hint_exp_amount_no">Enter Amount(Numbers only)</string>
+    <string name="hint_exp_date">Enter Today\'s Date(DD-MM-YYYY)</string>
+    <!-- End -->
+    
+    <!-- Settings for "View All Expenses" screen-->
+    <string name="btn_GoBackToMain">Back</string>
+
+
+    <!-- Settings for "View Categories of Expenses" screen" -->
+    
+    
+</resources>

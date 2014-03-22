@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<!--    <EditText
+        android:id="@+id/editText_Exp_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:ems="10"
+        android:hint="@string/hint_exp_desc_txt"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_Exp_Categ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:ems="10"
+        android:hint="@string/hint_exp_category_txt"
+        android:inputType="textPersonName" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_Exp_Amnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:ems="10"
+        android:hint="@string/hint_exp_amount_no"
+        android:inputType="text|number" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_Exp_Date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:ems="10"
+        android:hint="@string/hint_exp_date"
+        android:inputType="text|date" >
+
+    </EditText>
+-->
+    <Button
+        android:id="@+id/button_Main_EnterExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@android:dimen/thumbnail_height"
+        android:onClick="persistExpense"
+        android:text="@string/btn_Main_SubmitExpense" >
+    </Button>
+    
+    <Button
+        android:id="@+id/button_Main_ViewAllExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@android:dimen/thumbnail_height"
+        android:onClick="printExpenses"
+        android:text="@string/btn_Main_ViewAllExpenses" >
+    </Button>
+    
+    <Button
+        android:id="@+id/button_Main_ViewCatgOfExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@android:dimen/thumbnail_height"
+        android:onClick="viewCatgOfExpenses"
+        android:text="@string/btn_Main_ViewCatgOfExpenses" >
+    </Button>
+    
+</LinearLayout>
